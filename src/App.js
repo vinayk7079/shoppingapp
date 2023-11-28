@@ -7,6 +7,7 @@ import PageNotFound from "./app/Pages/PageNotFound";
 import AllProducts from "./app/Pages/Products/AllProducts";
 import SingleProductDetails from "./app/Pages/Products/ProductDetails/SingleProductDetails";
 import Cart from "./app/Pages/Cart";
+import LoginSignup from "./app/Pages/LoginSignup";
 function App() {
   return (
     <Fragment>
@@ -18,6 +19,8 @@ function App() {
         <Route path="contact" element={<Contact />} />
         <Route path="cart" element={<Cart />} />
         <Route path="*" element={<PageNotFound />} />
+        <Route path="/loginSignup" element={<LoginSignup/>}/>
+
       </Routes>
     </Fragment>
   );

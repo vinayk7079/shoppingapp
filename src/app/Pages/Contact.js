@@ -19,14 +19,14 @@ function Contact() {
                   <Form.Label>Your Name</Form.Label>
                   <Form.Control
                     type="text"
-                    placeholder="John Smith"
+                    placeholder="Vinay Kumar"
                   ></Form.Control>
                 </Form.Group>
                 <Form.Group className="mb-3">
                   <Form.Label>Your Email</Form.Label>
                   <Form.Control
                     type="email"
-                    placeholder="smith@example.com"
+                    placeholder="vinay@example.com"
                   ></Form.Control>
                 </Form.Group>
                 <Form.Group className="mb-3">

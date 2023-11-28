@@ -23,7 +23,7 @@ function TopNavbar() {
             <NavLink to={"/"} className="nav-link">
               Home
             </NavLink>
-            <NavDropdown title="Catrgoris" id="basic-nav-dropdown">
+            <NavDropdown title="Categories" id="basic-nav-dropdown">
               {categories &&
                 categories.map((c, index) => {
                   return (
@@ -42,7 +42,13 @@ function TopNavbar() {
             </NavLink>
             <NavLink to={"/contact"} className="nav-link">
               Contact
-            </NavLink>
+              </NavLink>
+            
+            <NavLink to={"/LoginSignup"} className="nav-link">
+              Login
+              </NavLink>
+            
+
           </Nav>
         </Navbar.Collapse>
       </Container>

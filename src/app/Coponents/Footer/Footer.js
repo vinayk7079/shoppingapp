@@ -8,8 +8,8 @@ function Footer() {
       <div className="text-center bg-dark text-white py-2 fixed-bottom">
         <span>
           Copyright & Developed by{" "}
-          <a href="https://www.linkedin.com/in/almamunhossain/" target="blank">
-            Almamun
+          <a href="https://www.linkedin.com/in/vinay-kumar29/" target="blank">
+            Vinay
           </a>
         </span>
       </div>
